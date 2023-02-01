@@ -136,6 +136,17 @@ body {
     font-size: 23px;
 }
 
+.apresentacaoConteudoImagem {
+    padding: 1%;
+    display: flex;
+    display: inline-block;
+}
+
+.arte {
+    width: 320px;
+    height: 520px;
+}
+
 @media (max-width: 1200px) {
     .cabecalho{
         padding: 10%;
