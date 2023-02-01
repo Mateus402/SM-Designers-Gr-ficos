@@ -132,6 +132,10 @@ body {
     text-decoration: none;
 }
 
+.sobreNosInsta:hover {
+    font-size: 23px;
+}
+
 @media (max-width: 1200px) {
     .cabecalho{
         padding: 10%;
