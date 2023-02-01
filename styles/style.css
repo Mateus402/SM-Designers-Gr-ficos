@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100&display=swap');
+
+
+
+
+/*O * seleciona todos os elementos da página*/
+/*Esse comentado reseta o CSS já existente*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh;  */
+    box-sizing: border-box;
+    background-color: rgb(105, 88, 81);
+    color: rgb(15, 15, 15);
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalhoMenu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalhoMenuLink{
+    font-family: 'Montserrat', sans-seri;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.titulo1 {
+    color: aqua;
+}
+
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacaoConteudo {
+    width: 615px;
+    display: flex;  
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacaoConteudoTitulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacaoConteudoTexto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-seri;
+}
+
+.apresentacaoConteudoLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacaoConteudoLinkSubtitulo {
+    font-size: 24px;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+}
+
+.apresentacaoConteudoLinkBotao{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    font-size: 24px;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #22d4fd;
+    padding: 21.5px 0;
+    font-family: 'Montserrat', sans-seri;
+    text-decoration: none;
+    color: white;
+}
+
+.apresentacaoConteudoLinkBotao:hover {
+    background-color: rgb(100, 100, 100);
+    border: 2px solid rgb(100, 100, 100);
+}
+
+.rodape {
+    padding: 24px;
+    color: #000000;
+    background-color: #22d4fd;
+    text-align: center;
+    font-weight: 400;
+}
