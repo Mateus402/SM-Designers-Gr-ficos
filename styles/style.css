@@ -74,7 +74,7 @@ body {
 
 .apresentacaoConteudoTexto {
     font-size: 1.5rem;
-    font-family: 'Itim', cursive;;
+    font-family: 'Itim', cursive;
 }
 
 .smDesign {
@@ -126,6 +126,10 @@ body {
     background-color: var(--cor-terciaria);
     text-align: center;
     font-weight: 400;
+}
+
+.sobreNosInsta {
+    text-decoration: none;
 }
 
 @media (max-width: 1200px) {
