@@ -77,6 +77,10 @@ body {
     font-family: 'Itim', cursive;;
 }
 
+.smDesign {
+    color: cyan;
+}
+
 .apresentacaoConteudoLink {
     display: flex;
     flex-direction: column;
