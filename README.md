@@ -4,6 +4,7 @@
 
 Projeto construído com objetivo de por em prática os conteúdos vistos no curso de HTML e CSS na Alura.
 
+Página web, com navegação de links e responsividade. Adaptável para telas mobiles e desktop.
 
 ## 🧑‍💻 Tecnologias
 
