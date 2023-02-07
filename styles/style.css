@@ -116,10 +116,6 @@ body {
     border: 2px solid var(--cor-quinta);
 }
 
-.apresentacaoImagem {
-    width: 50%;
-}
-
 .rodape {
     padding: 1.5rem;
     color: var(--cor-secundaria);
@@ -136,6 +132,11 @@ body {
     font-size: 23px;
 }
 
+.apresentacaoImagem {
+    width: 50%;
+}
+
+
 .apresentacaoConteudoImagem {
     padding: 1%;
     display: flex;
@@ -147,7 +148,7 @@ body {
     height: 520px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
     .cabecalho{
         padding: 10%;
     }
@@ -168,6 +169,11 @@ body {
 
     .apresentacaoConteudo {
         width: auto;
+    }
+
+    .apresentacaoConteudoImagem {
+        display: flex;
+        justify-content: center;
     }
 }
 
