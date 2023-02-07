@@ -154,7 +154,11 @@ body {
     
     .cabecalhoMenu {
         justify-content: center;
-        gap: 9%;
+        gap: 8%;
+    }
+
+    .cabecalhoMenuLink {
+        font-size: 1.1rem;
     }
 
     .apresentacao {
