@@ -168,7 +168,7 @@ body {
 /*Animação ao passar o mouse*/
 @media (max-width: 1200px) {
     .cabecalho{
-        padding: 10%;
+        padding: 5% 5% 5% 5%;
     }
     
     .cabecalhoMenu {
