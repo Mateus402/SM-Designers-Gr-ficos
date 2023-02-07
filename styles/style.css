@@ -140,7 +140,6 @@ body {
     padding: 1%;
     display: flex;
     display: inline-block;
-    vertical-align: middle;
 }
 
 .arte {
@@ -155,6 +154,7 @@ body {
     
     .cabecalhoMenu {
         justify-content: center;
+        gap: 9%;
     }
 
     .apresentacao {
