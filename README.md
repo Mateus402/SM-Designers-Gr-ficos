@@ -1,4 +1,4 @@
-#SM Designers Gráficos
+# SM Designers Gráficos
 
 ![preview](./assets/PagWeb.jpeg)
 
